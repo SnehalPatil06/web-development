@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+    <head>
+        <title>Layout Basics</title>
+        <meta name="viewport" content="initial-scale=2 width=device-width">
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            header{
+                background-color: rgb(104, 101, 101);
+                padding: 30px;
+                color: white;
+                font-size: 35px;
+                text-align: center;
+            }
+            footer{
+                background-color: rgb(104, 101, 101);
+                padding: 15px;
+                color: white;
+                font-size: 15px;
+                text-align: center;
+
+            }
+            section{
+                display: flex;
+
+            }
+            nav{
+                background-color: rgb(173, 167, 167);
+                padding: 20px;
+                flex:1;
+
+            }
+            li{
+                list-style-type: none;
+            }
+            article{
+                padding: 20px;
+                background-color: rgb(211, 203, 203);
+                flex: 5;
+            }
+        </style>
+    </head>
+    <Body>
+        <!--Header-->
+        <header>
+            Movies
+        </header>
+        <!--Main Section-->
+        <main>
+            <section>
+                <nav>
+                    <li><a href="www.marathi.com">Marathi</a></li>
+                       <li><a href="www.marathi.com">Hindi</a></li> 
+                        <li><a href="www.marathi.com">English</a></li>
+                    
+                </nav>
+                <article>
+                    <h1>Marathi</h1>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </article>
+            </section>
+        </main>
+        <!--Footer-->
+        <footer>
+            Footer
+        </footer>
+    </Body>
+</html>
